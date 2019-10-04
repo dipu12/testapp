@@ -1,0 +1,23 @@
+<div class="head-bar"></div>
+<div class="content-container">
+    <div class="headerText">
+        <span>RESULT OF THE TEST</span>
+    </div>
+    <div class="icon-container-group">
+      <div class="icon-wrapper"(click)="move($event)"><div class="icon-content"  id="id1"></div></div>
+      <div class="icon-wrapper"(click)="move($event)" ><div class="icon-content" id="id2"></div></div>
+      <div class="icon-wrapper"(click)="move($event)" ><div class="icon-content" id="id3"></div></div>
+      <div class="icon-wrapper"(click)="move($event)" > <div class="icon-content" id="id4"></div></div>
+      <div class="icon-wrapper"(click)="move($event)" ><div class="icon-content" id="id5"></div></div>
+    </div>
+    <div class="line-bar-container">
+        <div class="line-content">
+            <div class="indicator" id="indicator"  (click)="addAnimation()"></div>
+        </div>
+       
+    </div>
+    <div class="button-container" (click)="move($event)" >
+        <img src="../assets/-TryAgain.png" width="150px" height= "50px" id="button">
+    </div>
+
+</div>
